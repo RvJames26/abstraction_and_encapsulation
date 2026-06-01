@@ -1,6 +1,7 @@
 class Fan:
+    slow = 1
+    medium = 2
+    fast = 3
 
-    def __init__(self, name, fan_speed, fan_radius, fan_color):
+    def __init__(self, name):
         self.name = name
-        self.fan_speed = fan_speed
-        self.fan_radius = fan_radius
