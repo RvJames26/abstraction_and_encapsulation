@@ -11,6 +11,7 @@ for i in range(5):
     my_car.accelerate()
     print(f"Car Speed: {my_car.get_speed()}")
 
+print("Braking")
 for i in range(5):
     my_car.brake()
     print(f"Car speed: {my_car.get_speed()}")
