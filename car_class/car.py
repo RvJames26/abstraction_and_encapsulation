@@ -14,6 +14,12 @@ class Car:
     def brake(self):
         self.__speed -= 5
 
+    def get_year_model(self):
+        return self.__year_model
+
+    def set_make(self):
+        return self.__make
+
 my_car = Car(2003, "Porsche 911 GT3 RS")
 
 for i in range(5):
