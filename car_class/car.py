@@ -20,3 +20,8 @@ for i in range(5):
     my_car.accelerate()
 
 print(my_car.get_speed())
+
+for i in range(5):
+    my_car.brake()
+
+print(my_car.get_speed())
