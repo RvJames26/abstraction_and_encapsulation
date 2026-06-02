@@ -15,3 +15,8 @@ class Car:
         self.__speed -= 5
 
 my_car = Car(2003, "Porsche 911 GT3 RS")
+
+for i in range(5):
+    my_car.accelerate()
+
+print(my_car.get_speed())
