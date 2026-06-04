@@ -20,4 +20,5 @@ my_pet.get_age()
 my_pet.get_animal_type()
 
 print(f"Your pet is {my_pet.get_name()}")
-
+print(f"Your pet is {my_pet.get_age()} years old")
+print(f"Your pet is {my_pet.get_animal_type()} type")
